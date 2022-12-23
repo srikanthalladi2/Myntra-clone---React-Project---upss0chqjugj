@@ -52,6 +52,7 @@ const Cart = () => {
                       <option key={x + 1}>{x + 1}</option>
                     ))}
                   </Form.Control>
+                  <p>Max quantity available</p>
                 </Col>
                 <Col md={2}>
                   <Button
